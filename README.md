@@ -1,6 +1,6 @@
 # Portafolio Web Profesional Autoadministrable
 
-Un sistema web dinámico y autoadministrable diseñado para展示 el perfil profesional, habilidades, tecnologías y proyectos de un desarrollador. Cuenta con una interfaz pública moderna y responsiva, además de un panel de administración (dashboard) privado y seguro para gestionar todo el contenido de forma dinámica sin tocar el código.
+Un sistema web dinámico y autoadministrable diseñado para el perfil profesional, habilidades, tecnologías y proyectos de un desarrollador. Cuenta con una interfaz pública moderna y responsiva, además de un panel de administración (dashboard) privado y seguro para gestionar todo el contenido de forma dinámica sin tocar el código.
 
 ---
 
@@ -74,7 +74,7 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina local usando XAMPP:
 Clona este proyecto en la carpeta `htdocs` de tu instalación de XAMPP (usualmente `C:\xampp\htdocs\` en Windows):
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/xroMartin1/Portafolio-web.git
 ```
 
 ### 2. Importar la Base de Datos
@@ -114,3 +114,6 @@ Para acceder al panel de administración utiliza las siguientes credenciales ini
 - **Ataques XSS:** Sanitización activa de las salidas en pantalla mediante la función `htmlspecialchars()` de PHP.
 - **Protección de Contraseñas:** Encriptación de claves mediante algoritmos seguros con las funciones nativas `password_hash()` y `password_verify()`.
 - **Control de Acceso:** Validación de sesiones activas (`session_start()`) en todas las páginas administrativas. Si un usuario no autenticado intenta acceder directamente, es redirigido automáticamente a la pantalla de login.
+
+## Url de la pagina
+https://teclab.uct.cl/~mvaldebenito2025/
