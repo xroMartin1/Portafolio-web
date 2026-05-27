@@ -1,0 +1,28 @@
+# --- Configuraciones del Editor e IDEs ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- Archivos del Sistema Operativo ---
+Thumbs.db
+db.properties
+.DS_Store
+
+# --- Base de Datos (Opcional pero recomendado) ---
+# Si quieres que tu profesor descargue el bd.sql original para instalar la BD, 
+# NO lo ignores. Pero si haces respaldos de datos que cambian seguido, puedes ignorarlos.
+# Por ahora, para la entrega, déjalo visible (no lo pongas aquí).
+
+# --- Archivos Subidos (Uploads) ---
+# Ignoramos todas las fotos de prueba que tú subas en tu localhost
+uploads/*
+
+# Excepto los archivos estructurales (si creaste un .gitkeep para mantener la carpeta viva)
+!uploads/.gitkeep
+
+# --- Archivos Temporales de Desarrollo ---
+TODO.md
